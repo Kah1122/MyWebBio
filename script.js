@@ -1,6 +1,7 @@
-const Btn = document.getElementById("Button");
+const toggleDarkMode = document.getElementById("Button");
 const setBackground = document.documentElement;
 
-Btn.addEventListener("click", function () {
-  setBackground.style.backgroundColor = "#fff";
+
+toggleDarkMode.addEventListener("click", () => {
+  setBackground.classList.toggle("dark-mode");
 });
