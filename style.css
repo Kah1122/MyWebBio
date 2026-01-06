@@ -21,9 +21,10 @@ header > pre {
 	font-size: 3px;
 }
 #Button {
-	border: 10px solid #fff;
+	background: linear-gradient(to bottom, #000, #ff0000);
+	border: 1px solid #000;
 	border-radius: 10px;
-	padding: 1px 3px 1px 3px;
+	padding: 2px 6px 2px 6px;
 	position: absolute;
 	top: 1%;
 	right: 1%;
